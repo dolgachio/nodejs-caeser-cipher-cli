@@ -2,6 +2,13 @@
 
 A simple NodeJS CLI tool to encode and decode a string by [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 
+## Installation
+
+Before you run CLI tool, please, run this command:
+```
+npm install
+```
+
 CLI accepts 4 options (short alias and full name):
 
 1.  **-s, --shift**: a shift
@@ -29,4 +36,4 @@ $ node my_caesar_cli --action decode --shift 7 --input decoded.txt --output plai
 > output.txt
 > `Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!`
 
-A simple NodeJS CLI tool to encode and decode a string by Caesar cipher.
+!!!! It searches for input file starting from the same level as `caeser-cipher-cli` folder.

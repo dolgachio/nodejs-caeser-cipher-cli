@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stas-dolgachov/nodejs-caeser-cipher-cli/issues"
   },
-  "homepage": "https://github.com/stas-dolgachov/nodejs-caeser-cipher-cli#readme"
+  "homepage": "https://github.com/stas-dolgachov/nodejs-caeser-cipher-cli#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
